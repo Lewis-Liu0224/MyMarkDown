@@ -2,13 +2,13 @@
 
 
 
-![img](.\img\99109d10-f638-4922-aeb6-0a353c3d1e86.png)
+![img](https://github.com/liu8926847/MyMarkDown/blob/master/JVM/img/99109d10-f638-4922-aeb6-0a353c3d1e86.png)
 
 
 
 #### 堆参数
 
-![img](.\img\java_jvm_heap_parameters.png)
+![img](https://github.com/liu8926847/MyMarkDown/blob/master/JVM/img/java_jvm_heap_parameters.png)
 
 JDK1.8遗弃了永久代改为使用元空间：
 
@@ -21,15 +21,15 @@ JDK1.8遗弃了永久代改为使用元空间：
 
 #### 回收器参数
 
-![img](.\img\java_jvm_garbage_collector_parameters.png)
+![img](https://github.com/liu8926847/MyMarkDown/blob/master/JVM/img/java_jvm_garbage_collector_parameters.png)
 
 
 
-![img](.\img\java_jvm_compose_garbage_collector.png)
+![img](https://github.com/liu8926847/MyMarkDown/blob/master/JVM/img/java_jvm_compose_garbage_collector.png)
 
 #### 常用参数
 
-![img](.\img\java_jvm_suggest_parameters.png)
+![img](https://github.com/liu8926847/MyMarkDown/blob/master/JVM/img/java_jvm_suggest_parameters.png)
 
 
 
