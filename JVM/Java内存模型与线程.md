@@ -6,7 +6,7 @@
 
 多线程并发并不只有计算就能完成，还涉及到了内存的交互，而内存交互又带来了新的问题即**缓存一致性**。当多个任务涉及到同一块主内存区域，且各自的缓存数据不一致，则引发了缓存不一致的问题。
 
-![image-20200713105841247](.\img\image-20200713105841247.png)
+![image-20200713105841247](https://github.com/liu8926847/MyMarkDown/blob/master/JVM/img/image-20200713105841247.png)
 
 #### Java内存模型
 
@@ -51,7 +51,7 @@
 
    程序一般不会直接使用内核线程（KLT，kernel-Level Thread），而是使用内核线程的一种高级接口——轻量级进程（LWP，Light Weight Process），每一个轻量级进程都有一个内核级线程支持，故为1:1线程模型。
 
-   ![image-20200713144445566](.\img\image-20200713144445566.png)
+   ![image-20200713144445566](https://github.com/liu8926847/MyMarkDown/blob/master/JVM/img/image-20200713144445566.png)
 
 2. #### 用户线程实现
 
@@ -59,10 +59,10 @@
 
    这样做快速且低消耗，但是由于没有内核的支援，所有的线程操作都需要由用户程序自己去处理，遇到一些复杂的问题会异常难去处理。Java、Ruby等语言都层使用过用户线程，最终放弃了使用它，但最近以高并发为卖点的编程语言又普遍支持用户线程，如Golang、Erlang。
 
-   ![image-20200713145031484](.\img\image-20200713145031484.png)
+   ![image-20200713145031484](https://github.com/liu8926847/MyMarkDown/blob/master/JVM/img/image-20200713145031484.png)
 
 3. #### 混合实现
 
    将内核线程与用户线程一起使用的实现方式
 
-   ![image-20200713145121605](.\img\image-20200713145121605.png)
+   ![image-20200713145121605](https://github.com/liu8926847/MyMarkDown/blob/master/JVM/img/image-20200713145121605.png)
